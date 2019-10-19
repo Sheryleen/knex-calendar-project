@@ -3,6 +3,8 @@ const bodyParser = require('body-parser');
 const port = process.env.PORT || 8000;
 const cors = require('cors');
 const logger = require('morgan');
+const users = require('./routes/users');
+const appointments = require('./routes/appointments');
 
 
 const app = express();
